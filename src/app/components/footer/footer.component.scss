@@ -1,0 +1,43 @@
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #673ab7; /* Color de fondo del footer */
+    color: #fff; /* Color de texto del footer */
+    padding: 10px 0; /* Espaciado interno del footer */
+    text-align: center; /* Alinear el texto al centro */
+  }
+
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer-left, .footer-center, .footer-right {
+    flex: 1;
+  }
+  
+  .footer-left {
+    text-align: left;
+  }
+  
+  .footer-center {
+    text-align: center;
+  }
+  
+  .footer-right a {
+    background-color: white; /* Color de fondo con transparencia */
+    border-radius: 50%; /* Hacer que los enlaces sean redondos */
+    margin-left: 8px; /* Espacio entre los enlaces */
+  }
+  
+  .footer-right a:hover {
+    background-color: rgba(68, 66, 66, 0.2); /* Cambio de color al pasar el mouse */
+  }
+  
+  .icon {
+    cursor: pointer;
+    margin-left: 10px; /* Espacio entre los iconos */
+  }
+  
