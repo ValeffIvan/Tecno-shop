@@ -2,10 +2,12 @@
     position: fixed;
     bottom: 0;
     width: 100%;
-    background-color: #673ab7; /* Color de fondo del footer */
-    color: #fff; /* Color de texto del footer */
-    padding: 10px 0; /* Espaciado interno del footer */
-    text-align: center; /* Alinear el texto al centro */
+    background-color: #673ab7; 
+    color: #fff; 
+    padding: 10px 0; 
+    text-align: center; 
+    height: 5%;
+    font-size:medium;
   }
 
   .footer {
@@ -27,13 +29,16 @@
   }
   
   .footer-right a {
-    background-color: white; /* Color de fondo con transparencia */
-    border-radius: 50%; /* Hacer que los enlaces sean redondos */
-    margin-left: 8px; /* Espacio entre los enlaces */
+    background-color: white; 
+    border-radius: 50%; 
+    margin-left: 8px;
+    margin-top: 2%; 
+    width: 30px;
+    height: 30px;
   }
   
   .footer-right a:hover {
-    background-color: rgba(68, 66, 66, 0.2); /* Cambio de color al pasar el mouse */
+    background-color: rgba(68, 66, 66, 0.2);
   }
   
   .icon {

@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { BrowserModule, provideClientHydration } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -16,13 +17,20 @@ import { MatInputModule } from '@angular/material/input';
 import { HomeComponent } from './components/home/home.component';
 import {MatCardModule} from '@angular/material/card';
 import { FooterComponent } from './components/footer/footer.component';
-
+import { LoginComponent } from './components/login/login.component';
+import { UserslistComponent } from './components/administrator/userslist/userslist.component';
+import { ProductslistComponent } from './components/administrator/productslist/productslist.component';
+import {MatTableModule} from '@angular/material/table';
+import {MatPaginatorModule} from '@angular/material/paginator';
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     HomeComponent,
     FooterComponent,
+    LoginComponent,
+    UserslistComponent,
+    ProductslistComponent,
   ],
   imports: [
     BrowserModule,
@@ -34,7 +42,11 @@ import { FooterComponent } from './components/footer/footer.component';
     MatMenuModule,
     MatFormFieldModule,
     MatInputModule,
-    MatCardModule
+    MatCardModule,
+    FormsModule,
+    ReactiveFormsModule,
+    MatTableModule,
+    MatPaginatorModule,
   ],
   providers: [
     provideClientHydration(),
