@@ -22,6 +22,8 @@ import { UserslistComponent } from './components/administrator/userslist/usersli
 import { ProductslistComponent } from './components/administrator/productslist/productslist.component';
 import {MatTableModule} from '@angular/material/table';
 import {MatPaginatorModule} from '@angular/material/paginator';
+import { ProfileComponent } from './components/profile/profile.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -31,6 +33,7 @@ import {MatPaginatorModule} from '@angular/material/paginator';
     LoginComponent,
     UserslistComponent,
     ProductslistComponent,
+    ProfileComponent,
   ],
   imports: [
     BrowserModule,
